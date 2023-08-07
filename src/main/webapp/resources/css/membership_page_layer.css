@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    --border: 1px solid black;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    height: 850px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    width: 110px;
+    height: 100px;
+    background-image: url(../image/movie_logo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10px;
+    float: left;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    padding: 1.2rem 0;
+    background-color: white;
+}
+
+.main {font-family: 'Orbitron', sans-serif; font-size: 30px;}
+
+.nav {font-family: 'Dongle', sans-serif; font-size: 30px;}
+
+header ul {display: flex;}
+
+header ul li {list-style-type: none; margin: 10px; margin-top: 60px;}
+
+li a {text-decoration: none; color: black;}
+
+.container {background-color: #f9f9f9;}
+
+.membership_area1 {padding: 20px;}
+
+.membership_area2 {border: px solid black; padding: 70px; margin-right: 300px; margin-left: 300px;}
+
+.membership_text1 {font-family: 'Dongle', sans-serif; font-size: 60px; padding: 10px; text-align: center;}
+
+.membership_text2 {padding-bottom: 30px; text-align: center;}
+
+.email_box {width: 200px; height: 25px; margin-bottom: 20px;}
+
+.id_box {width: 200px; height: 25px; margin-bottom: 20px; margin-left: 53px;}
+
+.pw_box1 {width: 200px; height: 25px; margin-bottom: 20px; margin-left: 37px;}
+
+.pw_box2 {width: 200px; height: 25px; margin-bottom: 20px;}
+
+.name_box {width: 200px; height: 25px; margin-bottom: 20px; margin-left: 69px;}
+
+.gender_box {width: 30px; height: 15px; margin-bottom: 20px; margin-left: 60px;}
+
+.email_box {width: 200px; height: 25px; margin-bottom: 20px; margin-left: 53px;}
+
+.nick_name_box {width: 200px; height: 25px; margin-bottom: 20px; margin-left: 53px;}
+
+.membership_button {width: 100px; height: 50px; font-size: 15px; font-weight: bolder; margin-left: 430px;} 
+
+.close_button {width: 100px; height: 50px; font-size: 15px; font-weight: bolder; margin-left: 30px;}
+
+.find_area p a {text-decoration: none; color: black;}
+
+ul {list-style-type: none;}
+
+ul li label {text-align: left;}
+
+footer {    
+    text-align: center;
+    font-size: 5px;
+    padding: 10px 0;
+    background: #ccc;
+    margin: 0 auto;
+    width: 1200px; }
