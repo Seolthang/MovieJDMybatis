@@ -27,10 +27,11 @@
               <td id="detail_write"><br>${notice.noticeContent }</td>
             </tbody>
           </table>
-          <div>
-          	<a href="/notice/list.do">목록</a>
-            <a href="/notice/modify.do?noticeNo=${notice.noticeNo }">수정</a>
-            <a href="javascript:void(0)" onclick="deleteCheck();" >삭제</a>
+			<div class="btn_wrap">
+				<a class="btn btn_01" href="/notice/list.do">목록</a>
+				<a class="btn btn_02" href="/notice/modify.do?noticeNo=${notice.noticeNo }">수정</a>
+				<a class="btn btn_03" href="javascript:void(0)" onclick="deleteCheck();" >삭제</a>
+			</div>            
             <script>
             	const deleteCheck = () => {
             		const noticeNo = '${notice.noticeNo}';
@@ -39,7 +40,6 @@
             		}
             	}
             </script>
-          </div>
 <!--           <div class="write"> -->
 <!--             <th><input id="comment" type="text" placeholder="댓글을 입력하세요."></a></th> -->
 <!--             <a href="#">댓글등록</a> -->

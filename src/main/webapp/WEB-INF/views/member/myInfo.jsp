@@ -48,10 +48,14 @@
                 </li>
               </ul>
             </div>
-            <input class="membership_button" type="submit" value="수정하기">
-            <div class="deleteBtn">
-            <a href="javascript:void(0)" onclick="checkDelete();">탈퇴하기</a>
-            </div>
+<!--             <input class="membership_button" type="submit" value="수정하기"> -->
+<!--             <div class="deleteBtn"> -->
+<!--             <a href="javascript:void(0)" onclick="checkDelete();">탈퇴하기</a> -->
+<!--             </div> -->
+			<div class="membership_button_wrap">
+				<input class="membership_button" type="submit" value="수정하기">
+				<a class="membership_del_button" href="javascript:void(0)" onclick="checkDelete();">탈퇴하기</a>
+			</div>
           </form>
           <script>
           	// "/member/delete.do?memberId=${sessionScope.memberId}"
